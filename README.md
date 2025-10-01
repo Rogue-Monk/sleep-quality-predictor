@@ -1,103 +1,78 @@
-🌙 AI Sleep Quality Predictor
+
+# 🌙 AI Sleep Quality Predictor
 
 An interactive Streamlit web app that predicts sleep quality (Good vs Poor) from lifestyle and health metrics.
 
 
-🚀 Features
-
-✅ AI Model: Random Forest trained on Kaggle Sleep Dataset
-
-✅ Smooth Sliders: Intuitive controls for health/lifestyle inputs
-
-✅ What-if Simulator: Adjust stress, steps, etc. → see how predictions change
-
-✅ Feature Importance: Interactive Plotly chart for transparency
-
-✅ Multi-user Mode: Local session history for different users
-
-✅ Dark/Light Themes with a sidebar toggle
-
-✅ SVG Icons (Next.js style) for modern UI aesthetics
 
 
-🧩 Tech Stack
+## 🚀 Features
 
-Frontend: Streamlit
+- AI Model: Random Forest trained on Kaggle Sleep Dataset
 
-ML: Scikit-learn, Pandas, Joblib
+- Smooth Sliders: Intuitive controls for health/lifestyle inputs
 
-Visualization: Plotly Express
+- What-if Simulator: Adjust stress, steps, etc. → see how predictions change
 
-Icons/UI: Inline SVGs
+- Feature Importance: Interactive Plotly chart for transparency
 
+- Multi-user Mode: Local session history for different users
 
-📂 Project Structure:
-.
-├── app.py                 # Streamlit app
-├── rf_model.pkl           # Trained Random Forest model
-├── scaler.pkl             # Fitted StandardScaler
-├── feature_columns.pkl    # Feature order for predictions
-├── requirements.txt       # Python dependencies
-└── README.md              # Project docs
+- Dark/Light Themes with a sidebar toggle
+
+- SVG Icons (Next.js style) for modern UI aesthetics
 
 
-⚡ Installation & Usage
+## 🧩 Tech Stack
+
+**Frontend:** Streamlit
+
+**ML:** Scikit-learn, Pandas, Joblib
+
+**Visualization:** Plotly Express
+
+**Icons/UI:** Inline SVGs
+
+
+## Installation
 
 Clone the repo:
 
-git clone https://github.com/your-username/sleep-quality-predictor.git
-cd sleep-quality-predictor
-
+```bash
+  npm install my-project
+  cd my-project
+```
 
 Install dependencies:
 
-pip install -r requirements.txt
-
+```bash
+  pip install -r requirements.txt
+```
 
 Run the app:
 
+```bash
 streamlit run app.py
-
+```
 
 Open in browser → http://localhost:8501
+    
+## 🧪 Example Inputs
 
-
-
-
-🧪 Example Inputs
-
-Age: 25
-
-Gender: Male
-
-Sleep Duration: 6.5 hours
-
-Stress Level: 7
-
-Daily Steps: 4000
-
-Heart Rate: 78
-
-BMI: Overweight
-
-Blood Pressure: 140/90
+- Age: 25
+- Gender: Male
+- Sleep Duration: 6.5 hours
+- Stress Level: 7
+- Daily Steps: 4000
+- Heart Rate: 78
+- BMI: Overweight
+- Blood Pressure: 140/90
 
 👉 Output: ⚠️ Poor Sleep
-
-
-📊 Dataset
+## 📊 Dataset
 
 Trained on Kaggle – Sleep Health and Lifestyle Dataset
+## Author
 
+[@DynamicThinker](https://www.github.com/DynamicThinker)
 
-🌟 Screenshots
-
-
-
-👨‍💻 Author
-
-Your Name (Deek)
-
-📜 License
-
-MIT License © 2025
