@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+
+# Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Virtual envs
+.env/
+.venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
