@@ -74,5 +74,5 @@ Open in browser → http://localhost:8501
 Trained on Kaggle – Sleep Health and Lifestyle Dataset
 ## Author
 
-[@DynamicThinker](https://www.github.com/DynamicThinker)
+[@Rogue-Monk](https://www.github.com/Rogue-Monk)
 
